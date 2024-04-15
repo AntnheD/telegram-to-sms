@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="x-icon" href="telegram.png">
+    <meta name="Antnhe" content="this page shows registration for receiving sms from telegram channel announcement">
+    <title>Telegram Message sender</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="<KEY>" crossorigin="anonymous">
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                        <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z" />
+                    </svg>
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <p>Welcome to the ultimate announcement buddy! My web wizardry syncs with our class Telegram gang to shoot out SMS blasts for every announcement.
+             Just drop your name and digits, and voila! You'll be in the loop no matter where you roam. No online status required—stay in the know, on the go!</p>
+        <h2>simple Form</h2>
+        <h1 id="test-heading">Hello, world!</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <div class="input-group">
+                    <div class="input-group-addon">
+                        <select class="form-control" id="countryCode">
+                            <option value="+251">+251 (Ethiopia)</option>
+                            <option value="+1">+1 (USA)</option>
+                            <option value="+44">+44 (UK)</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </div>
+                    <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="additionalInfo">Telegram channel:</label>
+                <input type="text" class="form-control" id="additionalInfo" placeholder="AAiT 3rd year Software_Eng/ Sec 1,2&3">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="container bottom">
+            <p>&copy; 2024 Antnhe Debebe. All rights reserved. Just kidding!</p>
+            <ul class="list-inline">
+                <li><a href="#">Terms of Service: No guarantees here, folks! I'm using free APIs, so expect some surprises along the way. 😄</a></li>
+                <li><a href="#">Privacy Policy: Let's keep it friendly! Feel free to use nicknames instead of full names. 🤫</a></li>
+                <li><a href="#">Contact Me😄</a></li>
+                <li><a href="https://github.com/AntnheD">GitHub <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/32px-Octicons-mark-github.svg.png" alt="GitHub"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

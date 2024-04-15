@@ -1,0 +1,13 @@
+body {
+    background-image: url("photo/Background.jpg");
+    background-repeat: repeat; /* or repeat-x for horizontal repeat, repeat-y for vertical repeat */
+}
+p{
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(14, 206, 39);
+}
+
+.container bottom {
+    background-color: black;
+}
